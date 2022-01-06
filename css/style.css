@@ -1,3 +1,188 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* basic */
+
+body{
+    margin: 0;
+    padding: 0;
 }
+
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    color: #333333;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #13103A;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #3E3E3E;
+    /* padding: 20px; */
+}
+
+.content p {
+    padding: 20px 0;
+}
+
+.main-section{
+    display: flex;
+    margin: 0 100px;
+}
+
+.sm-wid{
+    width: 50%;
+    
+}
+
+.content{
+    margin-top: 60px;
+}
+
+.sm-wid img{
+    width: 80%;
+    border-radius: 30px;
+    float: right;
+    
+}
+
+
+
+.gradient{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#33ccff 15%, #ff99cc 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1{
+    border-left: 6px solid ;
+    padding-left: 10px;
+    border-image: linear-gradient(#33ccff 15%, #ff99cc 80%);
+    border-image-slice: 1;
+    
+}
+
+.link-btn{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin: 0px 20px; */
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #33ccff 15%, #ff99cc 80%);
+    color: white;
+
+}
+
+/* ================== */
+
+.main-mission{
+
+    margin-top:  100px;
+    margin-bottom: 150px;
+}
+
+.main-mission h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 60px;
+}
+
+#color-one{
+    background: #ffcccc;
+}
+
+#color-two{
+    background: #ffcccc		;
+}
+
+#color-three{
+    background: #00ffff;
+}
+
+.mis-content{
+    width: 30%;
+    /* background: linear-gradient(to left, #33ccff 13%, #ff99cc 61%); */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.image img{
+    display: flex;
+    width: 40%; 
+}
+
+.mis-content p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #424242;
+    text-align: left;
+}
+
+ h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* start Development part */
+.global{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.content img{
+    float: left;
+}
+
+.develop{
+    margin-top: 80px;
+}
+
+.develop h2 {
+    font-size: 40px;
+}
+
+.same {
+    font-size: 40px;
+}
+
+
+footer{
+    margin: 100px 0 0 0;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 50px 0 50px 0;    
+}
+
+footer .footer-text{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-weight: 700px;
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+
+
